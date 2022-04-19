@@ -49,7 +49,7 @@ table {
 /* syntax reset css */
 body {
     font: 16px/28px arial, sans-serif;
-    background-image: url(../img/dark.png);
+    background-image: url(img/dark.png);
     color: rgb(82, 79, 79);
 }
 .container{
@@ -82,7 +82,7 @@ body {
 }
 .hero {
     height: 320px;
-    background-image: url(../img/tech.png);
+    background-image: url(img/tech.png);
     background-size: cover;
     background-position: 0 -150px;
     border-bottom: 5px solid lightskyblue;
