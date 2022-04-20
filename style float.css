@@ -61,9 +61,9 @@ body {
     background-color: white;
     position: fixed;
     width: 960px;
-    height: 100px;
     box-sizing: border-box;
     border-bottom: 5px solid salmon;
+    top: 0;
 }
 .header .judul{
     font-size: 40px;
