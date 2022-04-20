@@ -1,4 +1,8 @@
-/* syntax reset css */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -35,8 +39,8 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	main: '';
-	main: none;
+	content: '';
+	content: none;
 }
 table {
 	border-collapse: collapse;
@@ -48,22 +52,38 @@ table {
 body {
     font: 16px/28px arial, sans-serif;
     background-image: url(img/dark.png);
-    color: rgb(82, 79, 79);
+    color: rgb(20, 14, 14);
+}
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: lightskyblue;
+    border-bottom: 3px solid salmon;
+    z-index: 999;
 }
 .container{
     width: 960px;
-    margin:auto;
+    margin:80px auto;
     background-color: white;
+    position: relative;
+}
+.instagram {
+    width: 200px;
+    height: 200px;
+    background-image: url(img/twitter.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: -12px;
+    right: -15px;
 }
 .header{
     padding: 20px;
     padding-bottom: 10px;
-    background-color: white;
-    position: fixed;
-    width: 960px;
-    box-sizing: border-box;
-    border-bottom: 5px solid salmon;
-    top: 0;
 }
 .header .judul{
     font-size: 40px;
