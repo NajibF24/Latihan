@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 /* syntax reset css */
+
+/* main html */
 body {
     font: 16px/28px arial, sans-serif;
     background-image: url(img/dark.png);
