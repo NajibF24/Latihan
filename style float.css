@@ -1,8 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+/* syntax reset css */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -62,6 +58,12 @@ body {
 .header{
     padding: 20px;
     padding-bottom: 10px;
+    background-color: white;
+    position: fixed;
+    width: 960px;
+    height: 100px;
+    box-sizing: border-box;
+    border-bottom: 5px solid salmon;
 }
 .header .judul{
     font-size: 40px;
@@ -70,7 +72,7 @@ body {
 }
 .header ul li {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-right: 10px;
 }
 .header a {
@@ -88,7 +90,6 @@ body {
     background-size: cover;
     background-position: 0 -150px;
     border-bottom: 5px solid lightskyblue;
-    border-top: 5px solid salmon;
 }
 .main{
     padding: 20px;
